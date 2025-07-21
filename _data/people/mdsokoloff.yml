@@ -1,7 +1,6 @@
 active: true
 focus-area:
-- ia
-- as
+  - ia
 institution: University of Cincinnati
 name: Mike Sokoloff
 photo: "/assets/images/team/Mike-Sokoloff.jpg"
@@ -9,3 +8,25 @@ shortname: mdsokoloff
 title:
 website: https://www.artsci.uc.edu/departments/physics/fac_staff.html?eid=sokoloff&thecomp=uceprof
 presentations:
+  - title: Advances in developing deep neural networks for finding primary vertices in proton-proton collisions at the LHC
+    date: 2022-11-04
+    url: https://indico.cern.ch/event/1159913/contributions/5062695/
+    meeting: ML4Jets2022
+    meetingurl: https://indico.cern.ch/event/1159913/
+    project: pv-finder
+    focus-area: ia
+    location: Rutgers University, New Jersey, USA
+  - title: Advances in developing deep neural networks for finding primary vertices in proton-proton collisions at the LHC
+    date: 2023-05-09
+    url: https://indico.jlab.org/event/459/contributions/11714/
+    meeting: CHEP-2023
+    project: pv-finder
+    focus-area: ia
+    location: Norfolk, VA
+  - title: Advances in developing deep neural networks for finding primary vertices in proton-proton collisions at the LHC
+    date: 2023-09-22
+    url:
+    meeting: seminar at Ramon LLull University, LaSalle Campus
+    project: pv-finder
+    focus-area: ia
+    location: Barcelona (Spain)

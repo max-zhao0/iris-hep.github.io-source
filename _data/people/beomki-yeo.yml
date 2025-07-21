@@ -1,95 +1,251 @@
 active: true
 e-mail: beomki.yeo@berkeley.edu
 focus-area:
-- ia
+  - ia
 institution: University of California, Berkeley
 name: Beomki Yeo
 photo: "/assets/images/team/beomki-yeo.png"
 shortname: beomki-yeo
 title: Post-doctoral researcher
 presentations:
-- title: GPU Demonstrator for ACTS Track Reconstruction
-  date: 2021-05-15
-  meeting: NSF review
-  meetingurl:
-  url: https://www.youtube.com/watch?v=1ygS0ESDxd4
-  focus-area: ia
-  project: acts
-- title: Cuda seed finding update in traccc
-  date: 2021-06-04
-  url: https://indico.cern.ch/event/1042735/contributions/4391827/attachments/2258486/3832800/210604_seed_finding_traccc.pdf
-  meeting: ACTS Parallelization Meeting
-  meetingurl: https://indico.cern.ch/event/1042735/
-  project: acts
-  focus-area: ia
-  location: CERN
-- title: Track Reconstruction using GPUs
-  date: 2021-08-10
-  url: https://indico.cern.ch/event/1066033/
-  meeting: LBML ATLAS Meeting
-  meetingurl: https://indico.cern.ch/event/1066033/
-  project: acts
-  focus-area: ia
-  location: CERN
-- title: Status of the GPU demonstrator (traccc) for Acts
-  date: 2021-10-04
-  url: https://indico.cern.ch/event/1080186/contributions/4543540/attachments/2321865/3953925/211004_CoreSW.pdf
-  meeting: Core SW / HCAF Session in S&C Week
-  meetingurl: https://indico.cern.ch/event/1080186/
-  project: acts
-  focus-area: ia
-  location: CERN
-- title: Detray status update
-  date: 2021-10-15
-  url: https://indico.cern.ch/event/1087025/contributions/4569689/attachments/2329031/3968256/211015_seeding_traccc.pdf
-  meeting: ACTS Parallelization Meeting
-  meetingurl: https://indico.cern.ch/event/1087025/
-  project: acts
-  focus-area: ia
-  location: CERN
-- title: A compile time polymorphic tracking geometry description
-  date: 2021-12-01
-  url: https://indico.cern.ch/event/855454/contributions/4605075/
-  meeting: 20th International Workshop on Advanced Computing and Analysis Techniques in Physics Research
-  meetingurl: https://indico.cern.ch/event/855454/contributions/4605075/
-  project: acts
-  focus-area: ia
-- title: Tracking with ACTS on GPUs
-  date: 2022-01-12
-  url: https://indico.cern.ch/event/1108812/contributions/4664149/attachments/2372004/4051204/220112_annual_meeting_ACTS_GPU_v2.pdf
-  meeting: Annual LBNL ATLAS Meeting
-  meetingurl: https://indico.cern.ch/event/1108812/
-  project: acts
-  focus-area: ia
-- title: Discussion on the (CUDA) navigator in detray
-  date: 2022-02-04
-  url: https://indico.cern.ch/event/1123703/contributions/4717015/attachments/2385160/4076289/220204_detray_navigator.pdf
-  meeting: Acts Parallelization Meeting
-  meetingurl: https://indico.cern.ch/event/1123703/
-  project: acts
-  focus-area: ia
-  location: CERN
-- title: Parallelisation in ACTS
-  date: 2022-03-09
-  url: https://indico.cern.ch/event/1073640/contributions/4515387/attachments/2404989/4113828/220309_Computer_Accelerator_forum.pdf
-  meeting: Compute Accelerator Forum / HSF Reconstruction and Software Triggers
-  meetingurl: https://indico.cern.ch/event/1073640/
-  project: acts
-  focus-area: ia
-  location: CERN
-- title: Future development plan
-  date: 2022-03-18
-  url: https://indico.cern.ch/event/1140956/contributions/4787579/attachments/2410721/4125039/220318_development_plan.pdf
-  meeting: ACTS Parallelization Meeting
-  meetingurl: https://indico.cern.ch/event/1140956/
-  project: acts
-  focus-area: ia
-  location: CERN
-- title: Matrix operations in algebra-plugins
-  date: 2022-04-01
-  url: https://indico.cern.ch/event/1145150/contributions/4806794/attachments/2419814/4141720/220401_matrix_algebra.pdf
-  meeting: ACTS Parallelization Meeting
-  meetingurl: https://indico.cern.ch/event/1145150/
-  project: acts
-  focus-area: ia
-  location: CERN
+  - title: GPU Demonstrator for ACTS Track Reconstruction
+    date: 2021-05-15
+    meeting: NSF review
+    meetingurl:
+    url: https://www.youtube.com/watch?v=1ygS0ESDxd4
+    focus-area: ia
+    project: acts
+  - title: Cuda seed finding update in traccc
+    date: 2021-06-04
+    url: https://indico.cern.ch/event/1042735/contributions/4391827/attachments/2258486/3832800/210604_seed_finding_traccc.pdf
+    meeting: ACTS Parallelization Meeting
+    meetingurl: https://indico.cern.ch/event/1042735/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Track Reconstruction using GPUs
+    date: 2021-08-10
+    url: https://indico.cern.ch/event/1066033/
+    meeting: LBML ATLAS Meeting
+    meetingurl: https://indico.cern.ch/event/1066033/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Status of the GPU demonstrator (traccc) for Acts
+    date: 2021-10-04
+    url: https://indico.cern.ch/event/1080186/contributions/4543540/attachments/2321865/3953925/211004_CoreSW.pdf
+    meeting: Core SW / HCAF Session in S&C Week
+    meetingurl: https://indico.cern.ch/event/1080186/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Detray status update
+    date: 2021-10-15
+    url: https://indico.cern.ch/event/1087025/contributions/4569689/attachments/2329031/3968256/211015_seeding_traccc.pdf
+    meeting: ACTS Parallelization Meeting
+    meetingurl: https://indico.cern.ch/event/1087025/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: A compile time polymorphic tracking geometry description
+    date: 2021-12-01
+    url: https://indico.cern.ch/event/855454/contributions/4605075/
+    meeting: 20th International Workshop on Advanced Computing and Analysis Techniques in Physics Research
+    meetingurl: https://indico.cern.ch/event/855454/contributions/4605075/
+    project: acts
+    focus-area: ia
+  - title: Tracking with ACTS on GPUs
+    date: 2022-01-12
+    url: https://indico.cern.ch/event/1108812/contributions/4664149/attachments/2372004/4051204/220112_annual_meeting_ACTS_GPU_v2.pdf
+    meeting: Annual LBNL ATLAS Meeting
+    meetingurl: https://indico.cern.ch/event/1108812/
+    project: acts
+    focus-area: ia
+  - title: Discussion on the (CUDA) navigator in detray
+    date: 2022-02-04
+    url: https://indico.cern.ch/event/1123703/contributions/4717015/attachments/2385160/4076289/220204_detray_navigator.pdf
+    meeting: Acts Parallelization Meeting
+    meetingurl: https://indico.cern.ch/event/1123703/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Parallelisation in ACTS
+    date: 2022-03-09
+    url: https://indico.cern.ch/event/1073640/contributions/4515387/attachments/2404989/4113828/220309_Computer_Accelerator_forum.pdf
+    meeting: Compute Accelerator Forum / HSF Reconstruction and Software Triggers
+    meetingurl: https://indico.cern.ch/event/1073640/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Future development plan
+    date: 2022-03-18
+    url: https://indico.cern.ch/event/1140956/contributions/4787579/attachments/2410721/4125039/220318_development_plan.pdf
+    meeting: ACTS Parallelization Meeting
+    meetingurl: https://indico.cern.ch/event/1140956/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Matrix operations in algebra-plugins
+    date: 2022-04-01
+    url: https://indico.cern.ch/event/1145150/contributions/4806794/attachments/2419814/4141720/220401_matrix_algebra.pdf
+    meeting: ACTS Parallelization Meeting
+    meetingurl: https://indico.cern.ch/event/1145150/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Connecting the dots conference 2022
+    date: 2022-05-31
+    url: https://indico.cern.ch/event/1103637/contributions/4821828/
+    meeting: Connecting the dots conference 2022
+    meetingurl: https://indico.cern.ch/event/1103637/
+    project: acts
+    focus-area: ia
+    location: Princeton University
+  - title: ACTS R&D for GPU track reconstruction
+    date: 2022-06-15
+    url: https://indico.cern.ch/event/1168515/contributions/4907454/attachments/2463257/4223494/220615_ATLAS_SC_week.pdf
+    meeting: Core SW / HCAF Session in S&C Week
+    meetingurl: https://indico.cern.ch/event/1168515/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: ACTS GPU Track Reconstruction Demonstrator
+    date: 2022-10-06
+    url: https://indico.cern.ch/event/1196648/contributions/5061574/attachments/2523332/4339297/2022_10_06_Software_Week.pdf
+    meeting: Joint Upgrade Software + Reconstruction session during S&C Week 73
+    meetingurl: https://indico.cern.ch/event/1196648/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Navigation, field integration and track parameter transport through detectors using GPUs and CPUs within the ACTS R&D project
+    date: 2022-10-25
+    url: https://indico.cern.ch/event/1106990/contributions/4998085/
+    meeting: 21st International Workshop on Advanced Computing and Analysis Techniques in Physics Research
+    meetingurl: https://indico.cern.ch/event/1106990/
+    project: acts
+    focus-area: ia
+    location: Villa Romanazzi Carducci, Bari, Italy
+  - title: Kalman Filtering Update in traccc
+    date: 2022-12-11
+    url: https://indico.cern.ch/event/1217196/contributions/5132620/attachments/2546223/4384762/Kalman%20Filtering%20Update%20in%20traccc.pdf
+    meeting: ACTS Parallelization Meeting
+    meetingurl: https://indico.cern.ch/event/1217196/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Kalman Filter Update in traccc
+    date: 2023-01-27
+    url: https://indico.cern.ch/event/1240038/contributions/5243551/attachments/2583632/4456667/2023%20Jan%2027,%20Parallelization%20meeting.pdf
+    meeting: ACTS Parallelization Meeting
+    meetingurl: https://indico.cern.ch/event/1240038/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Introduction and Updates from Traccc
+    date: 2023-02-28
+    url: https://indico.cern.ch/event/1252785/contributions/5280307/attachments/2601681/4492704/EF%20Tracking%20Meeting(1).pdf
+    meeting: EF Tracking weekly
+    meetingurl: https://indico.cern.ch/event/1252785/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: CUDA track finding with CKF
+    date: 2023-03-24
+    url: https://indico.cern.ch/event/1263304/contributions/5325276/attachments/2617814/4525218/CUDA%20Track%20Finding%20with%20CKF.pdf
+    meeting: ACTS Parallelization Meeting
+    meetingurl: https://indico.cern.ch/event/1263304/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Update on Energy Loss
+    date: 2023-04-12
+    url: https://indico.cern.ch/event/1271602/contributions/5356791/attachments/2627351/4543807/Update%20on%20Energy%20Loss.pdf
+    meeting: Acts Developers Meeting
+    meetingurl: https://indico.cern.ch/event/1271602/
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: "Status of KF and CKF: traccc"
+    date: 2023-11-09
+    url: https://indico.cern.ch/event/1295479/contributions/5616084/
+    meeting: Acts Workshop 2023
+    project: acts
+    focus-area: ia
+    location: IJCLab (Orsay, France)
+  - title: ACTS GPU R&D Status
+    date: 2023-11-16
+    url: https://indico.cern.ch/event/1346488/
+    meeting: "US ATLAS Software & Computing / Physics Support joint management meeting (Internal)"
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: CKF and KF development in traccc
+    date: 2023-11-28
+    url: https://indico.cern.ch/event/1346804/
+    meeting: EF Tracking Weekly (Internal)
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: GPU and Hardware Accelerators R&D for ATLAS Phase-II Computing
+    date: 2024-04-09
+    url: https://indico.cern.ch/event/1366450/ (internal)
+    meeting: ATLAS Lecture Series
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Vectorizing matrix operations
+    date: 2024-04-19
+    url: https://indico.cern.ch/event/1356206/
+    meeting: ACTS Parallelization Meeting
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: Reprise of ATLAS Lecture "GPU as a Hardware Accelerator"
+    date: 2024-04-30
+    url: https://indico.cern.ch/event/1409329/
+    meeting: ATLAS Event Filtering Weekly (internal)
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: "Traccc: GPU Track Reconstruction Library"
+    date: 2024-05-18
+    url: https://indico.ihep.ac.cn/event/21775/contributions/155293/
+    meeting: Workshop of Tracking in Particle Physics Experiments
+    project: acts
+    focus-area: ia
+    location: Zhengzhou University
+  - title: GPUs and Accelerators
+    date: 2024-05-20
+    url: https://indico.cern.ch/event/1405035/timetable/#19-gpus-and-accelerators
+    meeting: Computational HEP Traineeship Summer School 2024
+    project: acts
+    focus-area: ia
+    location: FNAL
+  - title: "traccc: GPU track reconstruction library for HEP experiments"
+    date: 2024-10-23
+    url: https://indico.cern.ch/event/1338689/contributions/6010050/
+    meetingurl: https://indico.cern.ch/event/1338689
+    meeting: "CHEP 2024 - Conference on Computing in High Energy Physics"
+    focus-area: ia
+    location: Krakow, Poland
+  - title: Kalman Smoothing with a Two-Filter Method
+    date: 2024-12-13
+    url: https://indico.cern.ch/event/1435335/#8-kalman-smoothing-with-a-two
+    meeting: ACTS Parallelization Meeting
+    project: acts
+    focus-area: ia
+    location: CERN
+  - title: traccc
+    date: 2025-01-08
+    url: https://indico.cern.ch/event/1438988/#33-traccc
+    meeting: LBNL ATLAS group Annual meeting
+    project: acts
+    focus-area: ia
+    location: LBNL
+  - title: Traccc tutorial
+    date: 2025-01-08
+    url: https://indico.cern.ch/event/1447956/#32-traccc-tutorial-b15-253
+    meeting: LBNL ATLAS group Annual meeting
+    project: acts
+    focus-area: ia
+    location: LBNL

@@ -5,25 +5,43 @@ title: Information to add or update fellows
 pagetype: doc
 ---
 
-### Adding a New Fellow Page
+### Adding or updating a Fellow Page on the IRIS-HEP Website
 
-#### IRIS-HEP website
+**NOTE**: Do not add a new file if you were a fellow before - just make updates to to your existing markdown file. (See "Adding multiple projects" to include your new project)
+
 In order to add your information, we request you to please supply a photo ( First_Name-Last_Name.jpg or .png - 320x240 pixels) and a paragraph summarizing your project’s goals.
 
 You should submit a pull request with the photo, a markdown file with the summary information above, and your proposal to this repo:
 
-<https://github.com/iris-hep/iris-hep.github.io-source>
+<https://github.com/iris-hep/iris-hep.github.io>
 
 
-* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/iris-hep/iris-hep.github.io-source/tree/master/assets/images/team). It should be 320x240 pixels and in general should be 150kB or less.
-* If you have been offered and accepted a Fellow position, your proposal will be uploaded by us to the [assets/pdf/follows-2022 folder](https://github.com/iris-hep/iris-hep.github.io-source/tree/master/assets/pdf/fellows-2022). Find the exact filename and use that below.
-* Add a "`<your github username>.md`" file to the [fellows folder in the website repository](https://github.com/iris-hep/iris-hep.github.io-source/tree/master/pages/fellows). See the example below.
+* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team/fellows-2025 folder](https://github.com/iris-hep/iris-hep.github.io/tree/master/assets/images/team/fellows-2025). It should be 320x240 pixels and in general should be 200kB or less.
+* If you have been offered and accepted a Fellow position, your proposal will be uploaded by us to the [assets/pdf/follows-2025 folder](https://github.com/iris-hep/iris-hep.github.io/tree/master/assets/pdf/fellows-2025). Find the exact filename and use that below.
+* Add a "`<your github username>.md`" file to the [fellows folder in the website repository](https://github.com/iris-hep/iris-hep.github.io/tree/master/_fellows/2025). See the example below.
 
 *Please Note*:  In the markdown file you create, ensure you set the “active” attribute to True – (i.e.  active: True).  Otherwise, your entry will not appear on our Fellows page.
 
 Be sure to include your project summary in the project_goal field.
 
 You can leave the “presentations” and “current_status” fields blank for now.  (Make sure to include the fields)
+
+You can optionally include your linkedin-profile.
+
+*MAKE SURE YOU INCLUDE THE "---" STRINGS AT THE BEGINNING (above "layout:") AND THE END (elow "linkedin-profile:") OF THE MD FILE (SEE EXAMPLE BELOW)*
+
+*OMIT THE "<" AND ">" CHARACTERS WHEN YOU CREATE YOUR MARKDOWN FILE - I.E. "fellow-name: <Your Name>" becomes "fellow-name: Jane Doe"*
+
+#### Adding multiple projects
+If you are a returning fellow and need to add multiple projects, follow the directions found here to update the markdown file for your page:
+
+  <https://iris-hep.org/docs/fellows_multiple_projects>
+
+### Dates
+Date format for start and end dates should be -- YYYY-MM-DD -- i.e. 2025-12-31
+
+### Photos
+Photos should be 320x240 and should be under 200kB.  Make sure your the file you specify in the "photo:" parameter has the same extension as the file you uploaded (i.e. .jpg, .png, etc)
 
 ```yml
 
@@ -38,16 +56,17 @@ active: True
 dates:
   start: <start date>
   end: <end date>
-photo: /assets/images/team/<First name>-<Last name>.jpg
+photo: /assets/images/team/fellows-2025/<First name>-<Last name>.jpg
 institution: <Your institution>
 e-mail: <Your email>
+focus-area: <Focus Area in IRIS-HEP for your project ( ask your mentor(s) ) - ia,ssl,ssc,doma,as,osglhc >
+challenge-area: <Challenge Area if your project is associated with one of the Grand Challenges: agc, data-grand-challenge, training-grand-challenge>
 project_title: <Project title>
 project_goal: >
     Short description of your project
 mentors:
-  - <Mentor Name - (<Mentor Institution>)>
-
-proposal: /assets/pdf/fellows-2022/<find-your-file>
+  - <Mentor Name (<Mentor Institution>)
+proposal: /assets/pdf/fellows-2025/<find-your-file>
 presentations:
   - title: "<Presentation Title"
     date: "Presentation Date"
@@ -58,11 +77,10 @@ presentations:
     focus-area: <Focus Area - ia,ssl,ssc,doma,as,osglhc>
 current_status: >
   A placeholder for status updates
+github-username: <Your git-hub username>
+linkedin-profile: <Your LinkedIn Profile url>
 ---
 ```
-
-### Dates
-Date format for start and end dates should be -- YYYY-MM-DD -- i.e. 2021-12-31
 
 ### Presentations
 

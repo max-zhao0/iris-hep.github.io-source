@@ -28,7 +28,7 @@
         <br>
         <h3>Project: {{project.project_title}}</h3>
 
-        {{project.project_goal}}
+        {{ project.project_goal | markdownify }}
         <br>
         <br>
         More information: <a href = "{{project.proposal}}">My project proposal</a><br>
@@ -85,9 +85,19 @@
             <i class="fab fa-github"></i><a href = "https://github.com/{{page.github-username}}"> Visit my GitHub Repo</a><br>
           </li>
           {% endif %}
+           {% if page.gitlab-url.size > 4 %}
+          <li>
+            <i class="fab fa-gitlab"></i><a href = "{{page.gitlab-url}}"> Visit my GitLab Repo</a><br>
+          </li>
+          {% endif %}
           {% if page.linkedin-profile.size > 4 %}
           <li>
             <i class="fab fa-linkedin"></i><a href = "{{page.linkedin-profile}}"> Visit my LinkedIn Profile</a><br>
+          </li>
+          {% endif %}
+          {% if page.orcid.size > 4 %}
+          <li>
+            <i class="fab fa-orcid"></i><a href = "https://orcid.org/{{page.orcid}}"> Visit my ORCID page</a><br>
           </li>
           {% endif %}
         </ul>

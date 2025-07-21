@@ -4,11 +4,13 @@ layout: project
 title: pyhf
 shortname: pyhf
 pagetype: project
-image: logos/pyhf-logo.png
+image: logos/pyhf-logo.svg
 logowidth: 50%
 blurb: Differentiable likelihoods
 maturity: Deployed
 maturity-note:
+github: https://github.com/scikit-hep/pyhf
+start-date: 2018-01-19
 focus-area: as
 team:
  - cranmer
@@ -25,6 +27,7 @@ team:
 [![JOSS DOI](https://joss.theoj.org/papers/10.21105/joss.02823/status.svg)](https://doi.org/10.21105/joss.02823)
 [![Scikit-HEP](https://scikit-hep.org/assets/images/Scikit--HEP-Project-blue.svg)](https://scikit-hep.org/)
 [![NSF-1836650](https://img.shields.io/badge/NSF-1836650-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1836650)
+[![NumFOCUS Affiliated Project](https://img.shields.io/badge/NumFOCUS-Affiliated%20Project-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org/sponsored-projects/affiliated-projects)
 
 [![Docs from latest](https://img.shields.io/badge/docs-latest-blue.svg)](https://pyhf.readthedocs.io/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scikit-hep/pyhf/master?filepath=docs%2Fexamples%2Fnotebooks%2Fbinderexample%2FStatisticalAnalysis.ipynb)
@@ -60,20 +63,42 @@ team:
 * [`pyhf` tutorial](https://pyhf.github.io/pyhf-tutorial/) (continually updated to use the latest `pyhf` release)
    - Past tutorials (with recordings on YouTube) are listed on the [tutorial GitHub project](https://github.com/pyhf/pyhf-tutorial)
 
+### Projects using `pyhf`
+
+An updating list of libraries, projects, and analyses that use `pyhf` are listed on the [users projects repository](https://github.com/pyhf/user-projects).
+
 ### Citations and Use in Publications
 
 Updating list of citations (from use in analyses and general reference) of `pyhf`:
 
+- Oksana Shadura and Alexander Held. First performance measurements with the Analysis Grand Challenge. April 2023. [arXiv:2304.05214](https://arxiv.org/abs/2304.05214).
+- Qilong Guo, Leyun Gao, Yajun Mao, and Qiang Li. Search for vector-like leptons at a Muon Collider. April 2023. [arXiv:2304.01885](https://arxiv.org/abs/2304.01885).
+- Subhasish Behera, Manuel Hageluken, and Matthias Schott. Prospects of Searches for Anomalous Hadronic Higgs Boson Decays at the LHeC. Feb 2023. [arXiv:2302.12885](https://arxiv.org/abs/2302.12885).
+- Jay Chan and Benjamin Nachman. Unbinned Profiled Unfolding. Feb 2023. [arXiv:2302.05390](https://arxiv.org/abs/2302.05390).
+- Brian Bockelman, Peter Elmer, and Gordon Watts. IRIS-HEP Strategic Plan for the Next Phase of Software Upgrades for HL-LHC Physics. Feb 2023. [arxiv:2302.01317](https://arxiv.org/abs/2302.01317)
+- ATLAS Collaboration. Search for long-lived, massive particles in events with displaced vertices and multiple jets in pp collisions at s√=13 TeV with the ATLAS detector. Jan 2023. [arXiv:2301.13866](https://arxiv.org/abs/2301.13866).
+- Nicolas Berger. Simplified likelihoods using linearized systematic uncertainties. Jan 2023. [arXiv:2301.05676](https://arxiv.org/abs/2301.05676).
+- Florian Bury. _Application of deep learning techniques in CMS: from matrix element regression to the search for Higgs boson pair production_. PhD thesis, Université catholique de Louvain, Dec 2022 [https://inspirehep.net/literature/2621189](https://inspirehep.net/literature/2621189)
+- Mohamed Aly et al. Second Analysis Ecosystem Workshop Report. Dec 2022. [arxiv:2212.04889](https://arxiv.org/abs/2212.04889)
+- Belle II Collaboration. Search for an invisible Z′ in a final state with two muons and missing energy at Belle II. Dec 2022. [arXiv:2212.03066](https://arxiv.org/abs/2212.03066).
+- Matthew Feickert, Lukas Heinrich, and Giordon Stark. pyhf: a pure-Python statistical fitting library with tensors and automatic differentiation. _PoS_, ICHEP2022:245, Nov 2022. [doi:10.22323/1.414.0245](https://doi.org/10.22323/1.414.0245).
+- Alexander Held and Oksana Shadura. The IRIS-HEP Analysis Grand Challenge. _PoS_, ICHEP2022:235, Nov 2022. [doi:10.22323/1.414.0235](https://doi.org/10.22323/1.414.0235).
+- Lukas Allwicher, Darius. A. Faroughy, Florentin Jaffredo, Olcyr Sumensari, and Felix Wilsch. HighPT: A Tool for high-pT Drell-Yan Tails Beyond the Standard Model. Jul 2022. [arXiv:2207.10756](https://arxiv.org/abs/2207.10756).
+- Belle Collaboration. Search for a dark leptophilic scalar produced in association with τ+τ− pair in e+e− annihilation at center-of-mass energies near 10.58 GeV. Jul 2022. [arXiv:2207.07476](https://arxiv.org/abs/2207.07476).
+- Gaël Alguero, Jack Y. Araz, Benjamin Fuks, and Sabine Kraml. Signal region combination with full and simplified likelihoods in MadAnalysis 5. Jun 2022. [arXiv:2206.14870](https://arxiv.org/abs/2206.14870).
+- Audrey Kvam. _Search for Events with Two Displaced Vertices from Pair-Produced Neutral Long-Lived Particles Decaying to Hadronic Jets in the Muon Spectrometer of the ATLAS Detector with Full Run 2 Data_. PhD thesis, Washington U., Seattle, Jun, 2022. [https://cds.cern.ch/record/2812260](https://cds.cern.ch/record/2812260).
+- ATLAS Collaboration. Search for heavy, long-lived, charged particles with large ionisation energy loss in pp collisions at s√=13 TeV using the ATLAS experiment and the full Run 2 dataset. May 2022. [arxiv:2205.06013](https://arxiv.org/abs/2205.06013).
 - ATLAS Collaboration. SimpleAnalysis: Truth-level Analysis Framework. Apr 2022. [https://cds.cern.ch/record/2805991](https://cds.cern.ch/record/2805991).
 - Tommaso Dorigo et al. Toward the End-to-End Optimization of Particle Physics Instruments with Differentiable Programming: a White Paper. Mar 2022. [arXiv:2203.13818](https://arxiv.org/abs/2203.13818).
+- Lucas Santiago Borgna. _Search for pair production of Higgs Bosons decaying to four bottom quarks with data collected by the ATLAS detector_. PhD thesis, University Coll. London, Mar, 2022. https://cds.cern.ch/record/2812193.
 - Alexander Albert et al. Strange quark as a probe for new physics in the Higgs sector. In _2022 Snowmass Summer Study_. Mar 2022. [arXiv:2203.07535](https://arxiv.org/abs/2203.07535).
 - Nathan Simpson and Lukas Heinrich. neos: End-to-End-Optimised Summary Statistics for High Energy Physics. Mar 2022. [arXiv:2203.05570](https://arxiv.org/abs/2203.05570).
 - Harry Enke et al. Survey of Open Data Concepts Within Fundamental Physics: An Initiative of the PUNCH4NFDI Consortium. _Computing and Software for Big Science_, 6(1):6, Mar 2022. [doi:10.1007/s41781-022-00081-7](https://doi.org/10.1007/s41781-022-00081-7).
-- ATLAS Collaboration. Search for neutral long-lived particles in pp collisions at s√=13 TeV that decay into displaced hadronic jets in the ATLAS calorimeter. Mar 2022. [arXiv:2203.01009](https://arxiv.org/abs/2203.01009).
+- ATLAS Collaboration. Search for neutral long-lived particles in pp collisions at s√=13 TeV that decay into displaced hadronic jets in the ATLAS calorimeter. _JHEP_, 06:005, Jun 2022. [arXiv:2203.01009](https://arxiv.org/abs/2203.01009), [doi:10.1007/JHEP06(2022)005](https://doi.org/10.1007/JHEP06(2022)005).
 - ATLAS Collaboration. Search for events with a pair of displaced vertices from long-lived neutral particles decaying into hadronic jets in the ATLAS muon spectrometer in pp collisions at s√=13 TeV. Mar 2022. [arXiv:2203.00587](https://arxiv.org/abs/2203.00587).
 - Lukas Heinrich and Michael Kagan. Differentiable Matrix Elements with MadJax. Feb 2022. [arXiv:2203.00057](https://arxiv.org/abs/2203.00057).
 - Jim Pivarski, Eduardo Rodrigues, Kevin Pedro, Oksana Shadura, Benjamin Krikler, and Graeme A. Stewart. HL-LHC Computing Review Stage 2, Common Software Projects: Data Science Tools for Analysis. Feb 2022. [arXiv:2202.02194](https://arxiv.org/abs/2202.02194).
-- Florentin Jaffredo. Revisiting mono-τ tails at the LHC. Dec 2021. [arXiv:2112.14604](https://arxiv.org/abs/2112.14604).
+- Florentin Jaffredo. Revisiting mono-tau tails at the LHC. _Eur. Phys. J. C_, 82(6):541, Jun 2022. [arXiv:2112.14604](https://arxiv.org/abs/2112.14604), [doi:10.1140/epjc/s10052-022-10504-9](https://doi.org/10.1140/epjc/s10052-022-10504-9).
 - ATLAS Collaboration. Implementation of simplified likelihoods in HistFactory for searches for supersymmetry. Sep 2021. [https://cds.cern.ch/record/2782654](https://cds.cern.ch/record/2782654).
 - Michael J. Baker, Darius A. Faroughy, and Sokratis Trifinopoulos. Collider Signatures of Coannihilating Dark Matter in Light of the B-Physics Anomalies. Sep 2021. [arXiv:2109.08689](https://arxiv.org/abs/2109.08689).
 - Kyle Cranmer and others. Publishing statistical models: Getting the most out of particle physics experiments. Sep 2021. [arXiv:2109.04981](https://arxiv.org/abs/2109.04981).
@@ -106,8 +131,12 @@ Updating list of citations (from use in analyses and general reference) of `pyhf
 
 ### Published Probability Models
 
-Updating list of HEPData entries for publications using `HistFactory` JSON statistical models:
+Updating list of HEPData entries for publications using `HistFactory` JSON statistical models. There is also an automatically generated list of statistical models that is updated nightly available at [pyhf.github.io/public-probability-models](https://pyhf.github.io/public-probability-models).
 
+- Search for supersymmetry in final states with missing transverse momentum and three or more b-jets in 139 fb−1 of proton-proton collisions at s√=13 TeV with the ATLAS detector. 2022. [doi:10.17182/hepdata.95928](https://doi.org/10.17182/hepdata.95928)
+- Search for flavour-changing neutral-current couplings between the top quark and the photon with the ATLAS detector at s√=13 TeV. 2022. [doi:10.17182/hepdata.129959](https://doi.org/10.17182/hepdata.129959)
+- Searches for new phenomena in events with two leptons, jets, and missing transverse momentum in 139 fb−1 of s√=13 TeV pp collisions with the ATLAS detector. 2022. [doi:10.17182/hepdata.116034](https://doi.org/10.17182/hepdata.116034)
+- Search for Higgs boson pair production in the two bottom quarks plus two photons final state in pp collisions at s√=13 TeV with the ATLAS detector. 2021. [doi:10.17182/hepdata.105864](https://doi.org/10.17182/hepdata.105864)
 - Search for charginos and neutralinos in final states with two boosted hadronically decaying bosons and missing transverse momentum in pp collisions at s√=13 TeV with the ATLAS detector. 2021. [doi:10.17182/hepdata.104458](https://doi.org/10.17182/hepdata.104458)
 - Measurement of the tt̅tt̅ production cross section in pp collisions at s√=13 TeV with the ATLAS detector. 2021. [doi:10.17182/hepdata.105039](https://doi.org/10.17182/hepdata.105039)
 - Search for R-parity violating supersymmetry in a final state containing leptons and many jets with the ATLAS experiment using s√=13 TeV proton-proton collision data. 2021. [doi:10.17182/hepdata.104860](https://doi.org/10.17182/hepdata.104860)

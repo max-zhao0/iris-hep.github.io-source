@@ -1,6 +1,6 @@
 active: true
 focus-area:
-- osglhc
+  - osglhc
 institution: University of Michigan
 name: Petya Vasileva
 photo: "/assets/images/team/Petya-Vasileva.png"
@@ -8,3 +8,41 @@ shortname: petya-vasileva
 title: Ph.D Student (University of Plovdiv)
 website:
 presentations:
+  - title: Tools and methods for tracking network issues based on perfSONAR datasets
+    date: 2023-03-10
+    url: https://drive.google.com/file/d/1UjNy80UlOKwVGx0GThM45TeCBTofd-G-/view
+    meeting: CI Engineering Lunch & Learn Series
+    focus-area: osglhc
+    project: psdash
+    location: Online
+  - title: Network problem detection and localisation using perfSonar measurements
+    date: 2023-06-30
+    url: https://www.eventbrite.com/e/660376051547
+    meeting: SoX Monthly Workshop
+    focus-area: osglhc
+    project: psdash
+    location: Online
+  - title: Network Problem Detection and Notification
+    date: 2023-06-14
+    url: https://indico.cern.ch/event/1278716/contributions/5435153/attachments/2665686/4619355/NPDaN.pdf
+    meeting: "ATLAS Software & Computing Week #75"
+    meetingurl: https://indico.cern.ch/event/1278716/#b-512111-adc-activities
+    focus-area: osglhc
+    project: osg-networking
+    location: CERN, Geneva, Switzerland
+  - title: perfSONAR Network Analytics - Status & Plans
+    date: 2024-10-11
+    url: https://docs.google.com/presentation/d/1qrNFkyA9QmC5FSIQSGOfRrurzowcm08XQz3nnd9GtY8/edit?usp=sharing
+    meeting: "#53 LHCOPN-LHCONE Meeting"
+    meetingurl: https://indico.cern.ch/event/1410638/
+    focus-area: osglhc
+    project: osg-networking
+    location: Beijing, China
+  - title: Enhancing Network Analytics  through Machine Learning
+    date: 2024-10-23
+    url: https://docs.google.com/presentation/d/1U0HN_U4RRd0kH1sgdh7gv_OoHKlaOguOiKzZZPbWhnI/edit?usp=sharing
+    meeting: "CHEP 2024"
+    meetingurl: https://indico.cern.ch/event/1338689/
+    focus-area: osglhc
+    project: osg-networking
+    location: Krakov, Poland

@@ -6,4 +6,5 @@ meetingurl: https://indico.cern.ch/event/1031199/
 image:
 description: Arduino Micro Controller and C++ programming (STEM Teachers)
 labels:
-- training
+  - training
+  - outreach

@@ -10,9 +10,11 @@ blurb: Building and steering template fits
 maturity: Deployed
 maturity-note:
 focus-area: as
+github: https://github.com/scikit-hep/cabinetry
+start-date: 2020-05-07
 team:
- - cranmer
- - alexander-held
+  - cranmer
+  - alexander-held
 ---
 
 [![CI status](https://github.com/scikit-hep/cabinetry/workflows/CI/badge.svg)](https://github.com/scikit-hep/cabinetry/actions?query=workflow%3ACI)
@@ -46,7 +48,7 @@ The execution of the required steps to construct a model is steered by `cabinetr
 Inference in `cabinetry` is performed via [pyhf](pyhf).
 
 ### `cabinetry` in the IRIS-HEP ecosystem
-The following image shows the final stages of an analysis: processing of columnar data to construct a statistical model, inference, and possible re-use and preservation.
+The following image shows the final stages of an analysis: processing of columnar data to construct a statistical model, inference, and possible reuse and preservation.
 It shows examples of connections to other packages developed in IRIS-HEP and the wider ecosystem.
 
 <img width="60%" src="/assets/images/cabinetry-vertical-slice.png" />

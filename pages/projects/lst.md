@@ -8,6 +8,7 @@ image: logos/lst-graphic.png
 blurb: Segment linking tracking for CMS
 maturity: Development
 maturity-note:
+start-date: 2020-09-01
 team:
  - IHateLinus
  - sgnoohc
@@ -16,10 +17,12 @@ team:
  - srlantz
  - tresreid
  - dan131riley
+ - gniendorf
  - Leonardo Giannini
  - slava77
  - mmasciov
  - osschar
+ - VourMa
  - beiwang2003
  - Giuseppe Cerati
  - Matti Kortelainen

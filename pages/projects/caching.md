@@ -8,6 +8,8 @@ image: logos/xcache.png
 blurb: Cached-based placement of analysis datasets.
 maturity: Deployed
 maturity-note:
+github: https://github.com/opensciencegrid/xcache
+start-date: 2015-02-08
 focus-area:
  - doma
  - osglhc
@@ -133,7 +135,7 @@ the monitoring data from the XRootD servers to the central monitoring collector 
 
 
 Finally, software improvements to the OSG collector have enabled us to start collecting and anlazying g-stream data, which is the XRootD monitoring stream
-that includes cache specific events. In the figure below we can observe an example of the g-stream data being colleted form the caches in the OSDF.
+that includes cache specific events. In the figure below we can observe an example of the g-stream data being collected form the caches in the OSDF.
 
 
 <br>
@@ -157,7 +159,7 @@ Currently XCache is distributed by the OSG Software Stack (authored by the [OSG-
 
 ## Reports
 
- * [Report on cache usage on the WLCG and potential use cases and deployment scenarios for the US LHC facilities](https://github.com/iris-hep/iris-hep.github.io-source/blob/master/assets/pdf/Cache_Usage_on_the_WLCG.pdf)
+ * [Report on cache usage on the WLCG and potential use cases and deployment scenarios for the US LHC facilities](https://github.com/iris-hep/iris-hep.github.io/blob/master/assets/pdf/Cache_Usage_on_the_WLCG.pdf)
  * [XrootD Monitoring Validation](https://zenodo.org/record/3981359#.YnWgRtPMK3c)
  * [XRootD Monitoring Scale Validation](https://zenodo.org/record/4688624#.YnWhRNPMK3e)
 
@@ -166,4 +168,4 @@ Currently XCache is distributed by the OSG Software Stack (authored by the [OSG-
 
  * [How to join the Open Science Data Federation](https://opensciencegrid.org/docs/data/stashcache/overview/)
  * [OSG Documentation on cache deployment (System administrator documentation)](https://opensciencegrid.org/docs/data/stashcache/run-stashcache-container/)
- * [Report on LHC data access patterns, data uses, and intelligent caching approaches for the HL-LHC](https://github.com/iris-hep/iris-hep.github.io-source/blob/master/assets/pdf/LHC_Data_Access_Patterns_draft.pdf)
+ * [Report on LHC data access patterns, data uses, and intelligent caching approaches for the HL-LHC](https://github.com/iris-hep/iris-hep.github.io/blob/master/assets/pdf/LHC_Data_Access_Patterns_draft.pdf)
